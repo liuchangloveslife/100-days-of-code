@@ -11,3 +11,9 @@
 **Progress**: 1 hour and 13 exercises on FCC.
 
 **Thoughts:** HTML's essence is giving meaning to content. Content first, code is ornament for now. This thought make me more relax when learning.
+
+### Day 3: 2019-6-13
+
+**Progress**: 1.5 hour and 18 exercises on FCC.
+
+**Thoughts:** CSS is using selector to select element and applying style rules to it.
