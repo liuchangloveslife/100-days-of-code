@@ -17,3 +17,9 @@
 **Progress**: 1.5 hour and 18 exercises on FCC.
 
 **Thoughts:** CSS is using selector to select element and applying style rules to it.
+
+### Day 4: 2019-6-15
+
+**Progress**: 1 hour and 12 exercises on FCC.
+
+**Thoughts:** Margin is space between border and surrounding element.Padding is space between content and border. 
