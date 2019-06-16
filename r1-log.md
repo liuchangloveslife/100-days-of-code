@@ -23,3 +23,10 @@
 **Progress**: 1 hour and 12 exercises on FCC.
 
 **Thoughts:** Margin is space between border and surrounding element.Padding is space between content and border. 
+
+### Day 5: 2019-6-16
+
+**Progress**: 1 hour and 13 exercises on FCC.
+
+**Thoughts:** The precedence of CSS rule styles: !important > id selector > subsequent declared class selector > forward declared class selector > html element name. Use hex code, abbr. hex code and rgb() to represent color. The define and use of CSS variable. 
+
