@@ -30,3 +30,8 @@
 
 **Thoughts:** The precedence of CSS rule styles: !important > id selector > subsequent declared class selector > forward declared class selector > html element name. Use hex code, abbr. hex code and rgb() to represent color. The define and use of CSS variable. 
 
+### Day 6: 2019-6-17
+
+**Progress**: 1 hour and 13 exercises on FCC.
+
+**Thoughts:** The define, use, fallback, override of CSS variable and usage with media query. Visual design is deliver visual message with html tags and style rules. It improves the presentation of content of page document and deliver other visual info, like use horizontal line to change topic or separate title and paragraph. Including, adjust align of text, width or height of elements, bold text, underline, italicize, strikethrough, horizontal line, use rgba() with low opacity to set background color of element, adjust heading's font size to custom presentation.
