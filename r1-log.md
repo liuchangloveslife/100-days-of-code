@@ -35,3 +35,9 @@
 **Progress**: 1 hour and 13 exercises on FCC.
 
 **Thoughts:** The define, use, fallback, override of CSS variable and usage with media query. Visual design is using html tags and style rules to improves the presentation of page content, deliver other visual messages, like using horizontal line to change topic or separate title and paragraph. Including, adjust align of text, width or height of elements, bold text, underline, italicize, strikethrough, horizontal line, use rgba() with low opacity to set background color of element, adjust heading's font size to custom presentation.
+
+### Day 7: 2019-6-18
+
+**Progress**: 1 hour, 9 exercises on FCC.
+
+**Thoughts:** shadow; opacity; visual consistency of text transform, font size of headings and paragraph, text block line height; hovering effect; relative postition. 
