@@ -41,3 +41,9 @@
 **Progress**: 1 hour, 9 exercises on FCC.
 
 **Thoughts:** shadow; opacity; visual consistency of text transform, font size of headings and paragraph, text block line height; hovering effect; relative postition. 
+
+### Day 8: 2019-6-19
+
+2 hour, 18 exercises on FCC.
+
+positioning- position: relative/absolute/fixed, float: left/right, margin: auto, z-index; color-primary color, secondary color, tertiary color, complementary color, split-complementary color model, hsl(); background- linear-gredient(), repeat-linear-gredient(), texture:url(); transform-scale(), skewX(), skewY().
