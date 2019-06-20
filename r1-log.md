@@ -47,3 +47,13 @@
 2 hour, 18 exercises on FCC.
 
 positioning- position: relative/absolute/fixed, float: left/right, margin: auto, z-index; color-primary color, secondary color, tertiary color, complementary color, split-complementary color model, hsl(); background- linear-gredient(), repeat-linear-gredient(), texture:url(); transform-scale(), skewX(), skewY().
+
+### Day 9: 2019-6-20
+
+1.5 hour, 15 exercises on FCC.
+
+crescent moon - {...bakcground-color: transparent; border-radius: 50%; box-shadow: 25px 10px 0 0 blue;}
+heart shape - .heart {...position: absolute; transform: rotate(-45deg);} .heart:before {position: absolute; left: 25px; border-radius: 50%; ...} .heart:after {position: absolute; top: 25px; border-radius: 50%; ...}
+animation properties: animation-name, animation-duration, animation-fill-mode(forwards), animation-iteration-count(infinite),animation-timing-function(4 keywords and cubic-bezier())
+@keyframes
+animation usage with color/offset/opacity/varible rates
