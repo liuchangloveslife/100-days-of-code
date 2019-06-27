@@ -57,3 +57,12 @@ heart shape - .heart {...position: absolute; transform: rotate(-45deg);} .heart:
 animation properties: animation-name, animation-duration, animation-fill-mode(forwards), animation-iteration-count(infinite),animation-timing-function(4 keywords and cubic-bezier())
 @keyframes
 animation usage with color/offset/opacity/varible rates
+
+### Day 10: 2019-6-27
+
+3 hour, 22 exercises on FCC.
+
+According to the rule, my commitment has failed. But I wish has less regret. I will still continue this challenge.
+
+Accessibility means make page accessible for broad audience. Using appropriate grouping tags ,text alternatives and well-organized code structure to help people with visual/audio impairments. Something interesting is that SEO could regard as improvement of accessibility.
+Semantic grouping tags include header, nav, main, section, article, footer. Semantic individual meaning tags include figure, audio, time. Special for input tags include label, fieldset, date. has sufficient contrast, set keyboard focus. Check xmind notes for details.
