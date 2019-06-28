@@ -66,3 +66,9 @@ According to the rule, my commitment has failed. But I wish has less regret. I w
 
 Accessibility means make page accessible for broad audience. Using appropriate grouping tags ,text alternatives and well-organized code structure to help people with visual/audio impairments. Something interesting is that SEO could regard as improvement of accessibility.
 Semantic grouping tags include header, nav, main, section, article, footer. Semantic individual meaning tags include figure, audio, time. Special for input tags include label, fieldset, date. has sufficient contrast, set keyboard focus. Check xmind notes for details.
+
+### Day 11: 2019-6-28
+
+1 hour, review and 4 exercises on FCC.
+
+sort notes of applied accessibility. Responsive web design is using media queries/CSS properties/viewport unit to accommodate different devices.
