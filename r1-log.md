@@ -72,3 +72,13 @@ Semantic grouping tags include header, nav, main, section, article, footer. Sema
 1 hour, review and 4 exercises on FCC.
 
 sort notes of applied accessibility. Responsive web design is using media queries/CSS properties/viewport unit to accommodate different devices.
+
+### Day 12: 2019-6-29
+
+1 hour+, 17 exercises on FCC.
+
+finish flexbox section on FCC. 
+flex container properties: display: flex; flex-direction: row(default)/column/row-reverse/column-reverse; justify-content: flex-start(default)/flex-end/center/space-between/space-around; align-items: stretch(default)/flex-start/flex-end/center/baseline; flex-wrap: nowrap(default)/wrap;
+flex items properties: flex-basis: xxpx/em/%/auto; flex-grow: integer; flex-shrink: integer; flex: 1 0 auto(default)/flex-grow flex-shrink flex-basis; order: integer;
+
+
