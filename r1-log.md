@@ -83,4 +83,16 @@ flex container properties: display: flex; flex-direction: row(default)/column/ro
 
 flex items properties: flex-basis: xxpx/em/%/auto; flex-grow: integer; flex-shrink: integer; flex: 1 0 auto(default)/flex-grow flex-shrink flex-basis; order: integer;
 
+### Day 13: 2019-7-2
 
+1.5 hour, 22 exercises on FCC. 0.5 hour for FCC tribute page project.
+
+finish CSS grid section on FCC. 
+
+for container: grid-template-columns, grid-template-rows, grid units(fr/%/auto/px), repeat(), minmax(), auto-fill/auto-fit(differ is auto-fit won't create empty columns/rows when container's size larger than combined size.), grid-gap(grid-row-gap/grid-column-gap), justify-items(stretch(default)/start/end/center), align-items(...), grid-template-areas, use with media query, set up grid in grid cell.
+
+for item: grid-column(lines), grid-row, justify-self(...), align-self(...), grid-area.
+
+pass all tests of tribute page on FCC, but don't know what content should include.
+
+Maybe content is more important than technology.
