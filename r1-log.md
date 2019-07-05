@@ -96,3 +96,13 @@ for item: grid-column(lines), grid-row, justify-self(...), align-self(...), grid
 pass all tests of tribute page on FCC, but don't know what content should include.
 
 Maybe content is more important than technology.
+
+### Day 14: 2019-7-4
+
+1 hour+, finish Survey Form and Product Landing Page projects on FCC.
+
+### Day 15: 2019-7-5
+
+1 hour+, finish Technical Documentation and Personal Portfolio projects on FCC.
+
+get Responsive Web Design certification.[My certification](https://www.freecodecamp.org/certification/liuchangloveslife/responsive-web-design)
