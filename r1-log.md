@@ -106,3 +106,25 @@ Maybe content is more important than technology.
 1 hour+, finish Technical Documentation and Personal Portfolio projects on FCC.
 
 get Responsive Web Design certification.[My certification](https://www.freecodecamp.org/certification/liuchangloveslife/responsive-web-design)
+
+### Day 16: 2019-7-7
+
+3 hours, finish 39 exercises on FCC.
+
+JS comments.
+
+JS data types: undifined/null/boolean/string/symbol/number/object
+
+variable: using "label" to point to data, allow computers to store and manipulate data in a dynamic fashion
+
+variable initial: only declare, get value of undifined, then if perform mathematical operation with number get result of NaN, if perform concatenation operation with string get result of "undefined".
+
+variable/function name rule: consist of numbers, letters, $, _, but not contain space or start with a number
+
+variable/function naming convention: camelCase.
+
+assignment: before assign value to left, evaluated everything of right
+
+string: escaping characters/bracket notation/immutability/.length
+
+array: multi-dimensional array/modify data(mutability)
