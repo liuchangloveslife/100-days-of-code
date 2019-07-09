@@ -142,3 +142,13 @@ boolean, comparison operator: equality/strict equality operator, ..., typr conve
 logical: if, and, or
 
 if/else if/if
+
+### Day 18: 2019-7-9
+
+1 hr, finish 9 exercises on FCC.
+
+switch: for many options to choose, strict equlity comparsion, eg. counting card
+
+function: exit at the return statement
+
+object: store data in a structed way, represent real world objects like cats, using properties to access data in the object, properties could be number/string/string ommited quotes
