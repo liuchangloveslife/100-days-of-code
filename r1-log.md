@@ -128,3 +128,17 @@ assignment: before assign value to left, evaluated everything of right
 string: escaping characters/bracket notation/immutability/.length
 
 array: multi-dimensional array/modify data(mutability)
+
+### Day 17: 2019-7-8
+
+2.5 hrs, finish 33 exercises on FCC.
+
+manipulate array: .pop(), .push(), .shift(), .unshift()
+
+function: reusable JS code, parameter, argument, return value
+
+boolean, comparison operator: equality/strict equality operator, ..., typr conversion before evaluate
+
+logical: if, and, or
+
+if/else if/if
