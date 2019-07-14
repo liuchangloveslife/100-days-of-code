@@ -152,3 +152,25 @@ switch: for many options to choose, strict equlity comparsion, eg. counting card
 function: exit at the return statement
 
 object: store data in a structed way, represent real world objects like cats, using properties to access data in the object, properties could be number/string/string ommited quotes
+
+### Day 19: 2019-7-14
+
+2 hrs, finish 11 exercises on FCC.
+
+destructuring object as parameter.
+
+template literal: special string, ``/${variable_name/expression}/multi-line,use with arr.map(...)
+
+object literal: (a,b) => {a,b}
+
+defining function in property of object, : function could be omited
+
+class syntax: special function, when use with new, invoke constructor to instantiate, use with get/set to write getter/setter, notice their usage
+
+require() and import:import will get portion of exported function/variable; import substract from "math_functions"
+
+export: export const ... or export {...} in exported file
+
+import *: import * as object_name from "file_path"
+
+export fallback: export defalut function ...; usage: import add from "math_functions"//add is default export in math_functions
