@@ -174,3 +174,23 @@ export: export const ... or export {...} in exported file
 import *: import * as object_name from "file_path"
 
 export fallback: export defalut function ...; usage: import add from "math_functions"//add is default export in math_functions
+
+### Day 20: 2019-7-15
+
+1 hr, 8 exercises on FCC.
+
+regex: special string, match pattern to search/replace text.
+
+reg.test(str): return true/false to test whether str has reg portion.
+
+or character: |, one or more.
+
+flag i: /.../i, ignore captilize.
+
+str.match(regex): return matched arr.
+
+flag g: /.../g, match more than first match.
+
+wildcard character: ., match any one character.
+
+character class: [], match one in groups.
