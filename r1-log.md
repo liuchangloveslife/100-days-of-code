@@ -159,7 +159,7 @@ object: store data in a structed way, represent real world objects like cats, us
 
 destructuring object as parameter.
 
-template literal: special string, ``/${variable_name/expression}/multi-line,use with arr.map(...)
+template literal: special string, `/${variable_name/expression}/multi-line,use with arr.map(...)`
 
 object literal: (a,b) => {a,b}
 
@@ -194,3 +194,25 @@ flag g: /.../g, match more than first match.
 wildcard character: ., match any one character.
 
 character class: [], match one in groups.
+
+### Day 21: 2019-7-16
+
+10 exercises on FCC
+
+hyphen: specify range of character, [a-z0-9]
+
+^(caret character): for not specified `[^a-z0-9]`, for beginning chararcters`/^Cal/`
+
++: for one or more times `[s+]`
+
+`*`: for zero or more times `[Aa*]`
+
+greedy match: (default) match as many characters as possible, `"titanic".match(/t[a-z]*i/); //return ["titani"]`
+
+lazy match: (using `?`) match as small characters as possible, `"titanic".match(/t[a-z]*?i/); //return ["ti"]`
+
+`$`: for ending characters `/carboose$/`
+
+`\w`: shorthand of character class `[A-Za-z0-9_]`
+
+`\W`: opposite of `\w`, shorthand of  `[^A-Za-z0-9_]`
