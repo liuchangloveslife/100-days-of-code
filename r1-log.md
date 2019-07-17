@@ -216,3 +216,21 @@ lazy match: (using `?`) match as small characters as possible, `"titanic".match(
 `\w`: shorthand of character class `[A-Za-z0-9_]`
 
 `\W`: opposite of `\w`, shorthand of  `[^A-Za-z0-9_]`
+
+### Day 22: 2019-7-17
+
+13 exercises on FCC
+
+shortcut of character class: `\d`, `\D`, `\s`, `\S`
+
+quantity specifier: `{min,max}`, `{min,}`, `{,max}`, `{times}`
+
+character: `?` for lazy match or maybe not existance
+
+lookahead: positive `(?=...)`, negative `(?!...)`
+
+capture group: define `(...)`, use with `\1-`, eg. "code free".replace(/(\w+)\s(\w+)/, '$2 $1'); //returns "free code"
+
+str.replace(regex,p2): p2 for replacement or function to do something to matches
+
+remove spaces of begining or end of string: `"  Hello, World!  ".replace(/^\s+|\s+$/,"")`
