@@ -234,3 +234,13 @@ capture group: define `(...)`, use with `\1-`, eg. "code free".replace(/(\w+)\s(
 str.replace(regex,p2): p2 for replacement or function to do something to matches
 
 remove spaces of begining or end of string: `"  Hello, World!  ".replace(/^\s+|\s+$/,"")`
+
+### Day 23: 2019-7-18
+
+4 exercises on FCC
+
+get immediate value: `console.log(...)`
+
+browser console: perform lots of tests, clear console ouput when execute `console.clear()`
+
+get type of variable: `typeof(...)`
