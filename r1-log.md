@@ -244,3 +244,21 @@ get immediate value: `console.log(...)`
 browser console: perform lots of tests, clear console ouput when execute `console.clear()`
 
 get type of variable: `typeof(...)`
+
+### Day 24: 2019-7-19
+
+7 exercises on FCC
+
+make sure pairs of parentheses/brackets/braces/quotes
+
+when using quotes in string，make sure the string won’t end up earliy, using escape character
+
+`=` is assignment operater, `==/===` is equality/strict equality operater
+
+`var varName = function_name;` means the varName is now the function, `var varName = function_name()` means the varName is assigned the function return value
+
+when function has more than one parameter, input arguements in wrong order will cause runtime error(types of data won’t match), or logical error(can’t get the intended ouput)
+
+index of string or array starts from 0, ends in .length-1, ignore the index-0 or request index-.length will occur errors
+
+when we need reinitializing variable in loop, we need make sure the variables or loop counters are assigned correctly
