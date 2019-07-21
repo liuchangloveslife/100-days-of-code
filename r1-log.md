@@ -262,3 +262,27 @@ when function has more than one parameter, input arguements in wrong order will 
 index of string or array starts from 0, ends in .length-1, ignore the index-0 or request index-.length will occur errors
 
 when we need reinitializing variable in loop, we need make sure the variables or loop counters are assigned correctly
+
+### Day 25: 2019-7-20
+
+1hr42min 12 exercises on FCC
+
+make infinite terminal condition: make sure loop counter increment/decrement in correct direction, don’t reset loop counter or index in loop code
+
+array could store/access/modify data, is mutable
+
+using bracket notation to access/modify elements in an array
+
+add items to arrays, .push() at end of the array, .unshift() at begining of the array, could have more than one argument
+
+remove one item from arrays: .pop() from end of the array, returns removed element; .shift() from begining of the array, returns removed element.
+
+Array.splice(p1,p2[,p3]): manipulate arrays by removing/replaceing, returns removed or modified array, p1: the index to start, p2: the number of items to remove, p3: replacement to replace removed fragment
+
+Array.slice(p1,p2): extract items from array, returns an array of ectracted items; p1-start index of extracting(inclusive), p2-end index of extracting(exclusive)
+
+...: speard operater, unpacked items list, [...arr] mean copy of the arr, [item1,item2,...arr, item3] means combine array to form new one
+
+Array.indexOf(elem): examine whether elem exist in the array, if exists, return the index of the item, if not, return -1
+
+iterate array: for loop
