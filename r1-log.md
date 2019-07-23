@@ -286,3 +286,35 @@ Array.slice(p1,p2): extract items from array, returns an array of ectracted item
 Array.indexOf(elem): examine whether elem exist in the array, if exists, return the index of the item, if not, return -1
 
 iterate array: for loop
+
+### Day 26: 2019-7-22
+
+2 hrs 9 mins, 16 exercises on FCC.
+
+multiple-level array need tidy order to show relationship of layers
+
+objects are collections of key-value pairs/pieces of data mapped to unique identifiers we call properties or keys
+
+using bracket notation returns whether is not `undefined` or object.hasOwnProperty(elem) to examine whether has the elem
+
+`delete` remove the property from object, `delete foods.oranges;`
+
+`for...in`: iterate all properties in object, `for(let user in users){if(users[user]['online']==true){counter++;}};`
+
+`Object.keys(obj)`: returns an array containing all keys of properties in object, don’t have speceifed order
+
+ computer algorithm: sequence of steps to achieve a particular outcome; break problem down in many chunks, then solve each chunk one by one. 
+
+**whole code will be finded in xmind notes.**
+
+convert Celsius to Fahrenheit: `let fahrenheit = celsius*9/5 + 32`;
+
+Reverse a String: 1)splite the string to an array.2)reverse the array.3)join the array together, `str.split('').reverse().join('');`
+
+Factorialize a Number: 1)create container to contain result.2)iterate counter to get numbers.3)multiply them together and returns. 
+
+Find Longest Word in a string: 1)splite the string to words array.2)iterate array and get a new array to hold all length of each word in words-array.3)get the max in words-lens-array, return the value. 
+
+Confirm the Ending: 1)get the length of target.2)use str.substring() to get the ending part of str.3)examine whether equals
+
+Repeat a String Repeat a String: 1)use for loop to get the array containing several strings.2)use array.join(...) to concanate them together
