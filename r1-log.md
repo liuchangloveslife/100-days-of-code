@@ -318,3 +318,32 @@ Find Longest Word in a string: 1)splite the string to words array.2)iterate arra
 Confirm the Ending: 1)get the length of target.2)use str.substring() to get the ending part of str.3)examine whether equals
 
 Repeat a String Repeat a String: 1)use for loop to get the array containing several strings.2)use array.join(...) to concanate them together
+
+### Day 27: 2019-7-23
+
+136分钟（2小时16分钟）
+
+9道题
+
+`str.substring(startIdx,endIdx)`: startIdx-inclusive, endIdx-exclusive, `str.substring(0,num)+'...';`
+
+when using function as parameter, eg. arguement `num=>num%2==0`
+
+examine one value whether is boolean value: `return bool==true?true:bool==false?true:false;`
+
+uppercase first letter of one word: `str.charAt(0).toUpperCase()+str.substring(1)`
+
+`arr.slice()` & `arr.splice()`
+
+1. `.slice()` is extraction, not modify original arr.
+2. `.splice()` is modification, p1-startIdx, p2-removedCounter, p3-replacement(could omitted)
+
+falsy value: `false/null/0/''/undefined/NaN`
+
+`arr.sort(ruleFunc)`: sort numberic array in increment order: `arr.sort((a,b)=>a-b);`
+
+`arr/str.indexOf(...)`: examine whether ... exist in arr/str, if not exist, return -1
+
+`str.toLowerCase()`: set all letters in str to lower case
+
+conditions in for loop: except break condition of loop, we also need selected conditions in loop
