@@ -347,3 +347,45 @@ falsy value: `false/null/0/''/undefined/NaN`
 `str.toLowerCase()`: set all letters in str to lower case
 
 conditions in for loop: except break condition of loop, we also need selected conditions in loop
+
+### R1D28: 2019-7-24
+
+171分钟(2小时51分钟)
+
+26道题
+
+`object`: use perporties and behaviors to model real world
+
+define function in object: `let duck = {... , sayName: function(){...}}`
+
+`this` in object: refer to object that the method is associated with 
+
+`constructor function`: functions to define object, could have properties and methods, don’t need return value `function Dog(){...}`, get instance of the constructor, `let hound = new Dog();`, use `instanceof` to examaine the constructor for some instance
+
+`own/prototype/constructor proporties of constructor`
+
+1. `own...`: defined in general way, use `instaceName.hasOwnProperty(propName)` to examine
+2. `prototype...`: defined in prototype object of constructor, `constructorName.prototype = {}/constructor.protototype.propsName = ...`, used to reduce duplicated methods
+3. `constructor properties`: special property in prototype object, when using inherite, original constructor property won’t changed into new one, always the same as constructor name, it’s orignal from Object.prototype, .hasOwnProperty() in it
+
+inheritence: using supertype and subtype to reduce duplicate with prototype, `function Animal(){...};Animal.prototype={};function Dog(){};Dog.prototype = Object.create(Animal.prototype);Dog.prototype.constructor=Dog;`
+
+`mixins`:  fucntion, allow no inheritenced constructors to add same properties or behaviors, `let flyMixin = function(obj){obj.fly = function(){console.log("I can fly!")}};flyMixin(Plane);flyMixin(Bird);`
+
+closure private variable: use let in constructor function, the variable can’t be used externally
+
+`IIFE`: immediately invoked function expression, `(function(){console.log("hello")})();`
+
+```js
+let funModel = (function(obj){
+	return {
+        isCuteMixin: function(){
+            return true;
+        },
+        singMixin: function(){
+            console.log('...');
+        }
+    }
+})();
+
+```
