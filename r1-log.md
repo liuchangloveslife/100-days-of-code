@@ -389,3 +389,18 @@ let funModel = (function(obj){
 })();
 
 ```
+### R1D29: 2019-8-5
+
+9道题
+
+`Array.prototype.map(callbackFunc)`: create a new array, each item apply the callback function, don’t alter original array
+
+`Array.prototype.forEach(callbackFunc)`: create a new array, execute once for each item, don’t alter original array
+
+`Array.prototype.filter(criteria)`: create a new array, get items passing the test, don’t alter original array
+
+`Array.slice(p1,p2)`: return new array, copy original array when p1,p2 don’t exist, p1-sliceStartIndex, p2-sliceEndIndex(exclusive)
+
+`Array/String.concat(anotherArr/Str)`: create a new array/string, don’t alter original items
+
+`Array.reduce(processFunc)`: analyze data and return single value
